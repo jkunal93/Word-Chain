@@ -25,7 +25,7 @@ public class MultipleLetter{
 		
 		if(m == "m4"){
 			
-			try (BufferedReader br4 = new BufferedReader(new FileReader("dict/old_four.txt"))) {
+			try (BufferedReader br4 = new BufferedReader(new FileReader("old_four.txt"))) {
 			            
 						String w = "";
 			            while ((w = br4.readLine()) != null) {                
@@ -43,7 +43,7 @@ public class MultipleLetter{
 		
 		if(m == "m3"){
 			
-			try (BufferedReader br3 = new BufferedReader(new FileReader("dict/three_lc.txt"))) {
+			try (BufferedReader br3 = new BufferedReader(new FileReader("three_lc.txt"))) {
 	            
 				String w = "";
 	            while ((w = br3.readLine()) != null) {                
@@ -62,7 +62,7 @@ public class MultipleLetter{
 		
 		if(m == "m5"){
 			
-			try (BufferedReader br = new BufferedReader(new FileReader("dict/five_lc.txt"))) {
+			try (BufferedReader br = new BufferedReader(new FileReader("five_lc.txt"))) {
 	            
 				String w = "";
 	            while ((w = br.readLine()) != null) {                
