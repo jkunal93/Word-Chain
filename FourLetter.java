@@ -15,7 +15,7 @@ public class FourLetter{
 		
 		List<String> words = new ArrayList<String>();
 		
-		try (BufferedReader br = new BufferedReader(new FileReader("dict/old_four.txt"))) {
+		try (BufferedReader br = new BufferedReader(new FileReader("old_four.txt"))) {
             
 			String w = "";
             while ((w = br.readLine()) != null) {                
